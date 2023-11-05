@@ -1,4 +1,6 @@
-import { SearchParamsContext } from "next/dist/shared/lib/hooks-client-context.shared-runtime"
+
+
+export const dynamic = "force-dynamic";
 import Results from "./components/Results";
 const API_KEY = process.env.Api_key
 
